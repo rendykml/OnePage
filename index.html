@@ -36,13 +36,34 @@
     }
 
     /* Ensure the image fills the width of the page */
-   
+    #hero-image-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('assets/img/hero-bg-abstract.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 700px;
+    }
 
     #hero-img {
-      width: 100%;
-      height: 800px;
+      width: 50%;
+      height: 700px;
+      padding: 30px;
+
       
     }
+    @media (max-width: 720px){
+      #hero-img {
+        width: 100%;
+        height: 583px;
+        padding: 0;
+      }
+      #hero-image-section {
+        height: 583px ;
+      }
+    }
+
   </style>
 
   <!-- =======================================================
@@ -81,7 +102,8 @@
   </header>
 
   <!-- Section for the image -->
-  <section id="hero-image-section" class="p-0" >
+  <section id="hero-image-section" class="p-0" img="assets/img/hero-bg-abstract.jpg" >
+    
     <img id="hero-img" src="assets/img/gambarr.jpg" alt="Hero Image">
   </section>
 
