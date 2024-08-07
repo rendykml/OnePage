@@ -15,7 +15,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,12 +28,21 @@
   <link href="assets/css/main.css" rel="stylesheet">
   <style>
     .clickable {
-  cursor: pointer; /* Indicate clickable element */
-}
+      cursor: pointer; /* Indicate clickable element */
+    }
 
-.show {
-  display: block; /* Display list items when 'show' class is applied */
-}
+    .show {
+      display: block; /* Display list items when 'show' class is applied */
+    }
+
+    /* Ensure the image fills the width of the page */
+   
+
+    #hero-img {
+      width: 100%;
+      height: 800px;
+      
+    }
   </style>
 
   <!-- =======================================================
@@ -49,30 +58,32 @@
 
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
-
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">PutrawayLink</h1>
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>  
-            <ul>
-              <li></li>
-              <li class="dropdown"></a>
-                <ul>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><i class="mobile-nav-toggle"></i></li>
-        </ul>
-        
-        <a href="#about" class="btn-get-started">About</a>
+          <ul>
+            <li></li>
+            <li class="dropdown"></a>
+              <ul>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><i class="mobile-nav-toggle"></i></li>
+      </ul>
+      <a href="#about" class="btn-get-started">About</a>
       </nav>
     </div>
   </header>
+
+  <!-- Section for the image -->
+  <section id="hero-image-section" class="p-0" >
+    <img id="hero-img" src="assets/img/gambarr.jpg" alt="Hero Image">
+  </section>
 
   <main class="main">
     <!-- Hero Section -->
@@ -88,64 +99,60 @@
             <h1>@putrawaymlbb  <i class="fa-solid fa-gamepad fa-spin "></i></h1>
             <p class="lead">STORE JB AKUN ML | BERGARANSI | BISA COD AREA BANDUNG KOTA.</p>
             <h1><p><i class="fa-solid fa-headset"></i> Putraway service</p></h1>
-        </div>
+          </div>
         
-        <div class="row gy-4 mt-1">
-          <a class="col-md-6 col-lg" href="https://www.facebook.com/share/u4uKVSVQCqhSbERG/?mibextid=qi2Omg" target="_blank">
-            <div class="" data-aos="zoom-out" data-aos-delay="300">
-              <div class="icon-box">
+          <div class="row gy-4 mt-1">
+            <a class="col-md-6 col-lg" href="https://www.facebook.com/share/u4uKVSVQCqhSbERG/?mibextid=qi2Omg" target="_blank">
+              <div class="" data-aos="zoom-out" data-aos-delay="300">
+                <div class="icon-box">
                   <div class="icon"><i class="bi bi-facebook"></i></div>
                   <h4 class="title">Facebook Putrawaymlbb</h4>
-              </div>
-            </div><!--End Icon Box -->
-           </a>
-           <div class="col-md-6 col-lg-3">
-            <div class="clickable" aria-haspopup="true" aria-expanded="false" aria-label="Expand Whatsapp Group 1 List">
-              <div class="icon-box">
-                <div class="icon"><i class="bi bi-whatsapp"></i></div>
-                <h4 class="title">Grup JB Whatsapp</h4>
-                <ul id="Expand Whatsapp Group 1 List" style="list-style: none;" class="me-5" >
-                  <li class="" ><a href="https://chat.whatsapp.com/LwFlrotczVFL7PsM8Kmegm">Grup JB Whatsapp 1</a></li>
-                  <li class="mt-2" ><a href="https://chat.whatsapp.com/HzVvPqGn3FT55KOwZUqjaz">Grup JB Whatsapp 2</a></li>
-                  <li class="mt-2" ><a href="https://chat.whatsapp.com/KmTofqfLGdYAcP1IkUaRMc">Grup JB Whatsapp 3</a></li>
-              </ul>
-              </div>
-            </div>
-            <!-- Hidden list items -->
-            
-        </div>
-        
-          <a class="col-md-6 col-lg-3" href="https://wa.me/62895400290405" target="_blank">
-            <div class="" data-aos="zoom-out" data-aos-delay="300">
-              <div class="icon-box">
+                </div>
+              </div><!--End Icon Box -->
+            </a>
+            <div class="col-md-6 col-lg-3">
+              <div class="clickable" aria-haspopup="true" aria-expanded="false" aria-label="Expand Whatsapp Group 1 List">
+                <div class="icon-box">
                   <div class="icon"><i class="bi bi-whatsapp"></i></div>
-                  <h4 class="title">Whatsapp Putrawaymlbb</h4>
+                  <h4 class="title">Grup JB Putrawaymlbb Whatsapp</h4>
+                  <ul id="Expand Whatsapp Group 1 List" style="list-style: none;" class="me-5">
+                    <li class=""><a href="https://chat.whatsapp.com/CMqsI15WBJr0cnkFtTukxL">Grup JB Whatsapp 1</a></li>
+                    <li class="mt-2"><a href="https://chat.whatsapp.com/GlXHL9gihVsHWmtBzxfqbi">Grup JB Whatsapp 2</a></li>
+                    <li class="mt-2"><a href="https://chat.whatsapp.com/KmTofqfLGdYAcP1IkUaRMc">Grup JB Whatsapp 3</a></li>
+                  </ul>
+                </div>
               </div>
-            </div><!--End Icon Box -->
-           </a>
-        
-         <a class="col-md-6 col-lg-3" href="https://www.instagram.com/putrawaymlbb/" target="_blank">
-          <div class="" data-aos="zoom-out" data-aos-delay="300">
-            <div class="icon-box">
-                <div class="icon"><i class="bi bi-instagram"></i></div>
-                <h4 class="title">Instagram @putrawaymlbb</h4>
+              <!-- Hidden list items -->
             </div>
-          </div><!--End Icon Box -->
-         </a>
-        </div>
+        
+            <a class="col-md-6 col-lg-3" href="https://chat.whatsapp.com/KmTofqfLGdYAcP1IkUaRMc" target="_blank">
+              <div class="" data-aos="zoom-out" data-aos-delay="300">
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-whatsapp"></i></div>
+                  <h4 class="title">Stok Akun Admin Putrawaymlbb</h4>
+                </div>
+              </div><!--End Icon Box -->
+            </a>
+        
+            <a class="col-md-6 col-lg-3" href="https://www.instagram.com/putrawaymlbb/" target="_blank">
+              <div class="" data-aos="zoom-out" data-aos-delay="300">
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-instagram"></i></div>
+                  <h4 class="title">Instagram @putrawaymlbb</h4>
+                </div>
+              </div><!--End Icon Box -->
+            </a>
+          </div>
         
         </div>
       </div>
-
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
-
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>About Us<br></h2>
-        
       </div><!-- End Section Title -->
 
       <div class="row justify-content-center" data-aos="zoom-out">
@@ -159,43 +166,44 @@
       </div>
       <div class="text-center" data-aos="zoom-out" data-aos-delay="100">
       </div>
-  
+    </section>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-  <script>
-    const iconBox = document.querySelector('.icon-box');
-iconBox.addEventListener('click', function(event) {
-  // Check if click target is the clickable element or its child
-  if (event.target.classList.contains('clickable') || event.target.closest('.clickable')) {
-    const listItems = document.getElementById('whatsapp-group-1-list');
-    listItems.classList.toggle('show');
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script>
+      const iconBox = document.querySelector('.icon-box');
+      iconBox.addEventListener('click', function(event) {
+        // Check if click target is the clickable element or its child
+        if (event.target.classList.contains('clickable') || event.target.closest('.clickable')) {
+          const listItems = document.getElementById('whatsapp-group-1-list');
+          listItems.classList.toggle('show');
 
-    // Update aria-expanded for accessibility (optional)
-    if (listItems.classList.contains('show')) {
-      clickableElement.setAttribute('aria-expanded', 'true');
-    } else {
-      clickableElement.setAttribute('aria-expanded', 'false');
-    }
-  }
-});
-  </script>
+          // Update aria-expanded for accessibility (optional)
+          if (listItems.classList.contains('show')) {
+            clickableElement.setAttribute('aria-expanded', 'true');
+          } else {
+            clickableElement.setAttribute('aria-expanded', 'false');
+          }
+        }
+      });
+    </script>
+  </main>
   
 </body>
 
